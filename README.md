@@ -17,7 +17,7 @@ struct Person {
 <br><br>No, C does not have built-in standard methods such as toString() and __str__. The user would have to define a function with a name of their choice that prints the values of the structure's attributes.
 
 **3) How does inheritance work (if it does)? Does your language support multiple inheritance?**
-<br>C does not provide built-in inheritance apabilities.Some inheritance capabilities can be achieved by declaring an instance of a parent structure in a child structure. An instance of the child structure can then set attributes of the parent structure and call functions that modify or utilize the parent structure's attributes. 
+<br><br>C does not provide built-in inheritance apabilities.Some inheritance capabilities can be achieved by declaring an instance of a parent structure in a child structure. An instance of the child structure can then set attributes of the parent structure and call functions that modify or utilize the parent structure's attributes. 
 
 #### Code Example
  ```c
@@ -34,7 +34,7 @@ strcpy(s1.p.birthdate, "04/03/1961");
 ```
 
 **4) If there is inheritance, how does your language deal with overloading method names and resolving those calls?**
-<br> C doesn't have built-in method overloading. The rules of the programming language would apply -  if multiple functions of the same name are defined, the compiler would give an error because duplicate function definitions aren't allowed.
+<br><br>C doesn't have built-in method overloading. The rules of the programming language would apply -  if multiple functions of the same name are defined, the compiler would give an error because duplicate function definitions aren't allowed.
 
 **5) Is there anything else that’s important to know about objects and inheritance in your language?**
 <br> 
