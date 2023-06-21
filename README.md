@@ -34,7 +34,7 @@ strcpy(s1.p.birthdate, "04/03/1961");
 ```
 
 **4) If there is inheritance, how does your language deal with overloading method names and resolving those calls?**
-<br>C doesn't have built-in method overloading. The rules of the programming language would apply -  if multiple functions of the same name are defined, the compiler would give an error because duplicate function definitions aren't allowed.
+<br><br>C doesn't have built-in method overloading. The rules of the programming language would apply -  if multiple functions of the same name are defined, the compiler would give an error because duplicate function definitions aren't allowed.
 
 **5) Is there anything else that’s important to know about objects and inheritance in your language?**
 <br><br>Through the coding portion of this lab it quickly became **very** clear that C is not designed for use in problems requiring object-oriented solutions. I had a very hard time finding resources and code examples, almost all tutorial results were for C++ or C# when searching for C. 
