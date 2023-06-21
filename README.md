@@ -14,10 +14,10 @@ struct Person {
 ```
 
 **2) Does your language have standard methods for functions that serve a similar purpose across all objects? For example, toString() in Java and __str__ in Python allow information about the objects to be printed. Are there similar functions in your language?**
-<br><br>No, C does not have built-in standard methods such as toString() and __str__. The user would have to define a function with a name of their choice that prints the values of the structure's attributes.
+<br>No, C does not have built-in standard methods such as toString() and __str__. The user would have to define a function with a name of their choice that prints the values of the structure's attributes.
 
 **3) How does inheritance work (if it does)? Does your language support multiple inheritance?**
-<br><br>C does not provide built-in inheritance apabilities.Some inheritance capabilities can be achieved by declaring an instance of a parent structure in a child structure. An instance of the child structure can then set attributes of the parent structure and call functions that modify or utilize the parent structure's attributes. 
+<br>C does not provide built-in inheritance apabilities.Some inheritance capabilities can be achieved by declaring an instance of a parent structure in a child structure. An instance of the child structure can then set attributes of the parent structure and call functions that modify or utilize the parent structure's attributes. 
 
 #### Code Example
  ```c
@@ -34,11 +34,11 @@ strcpy(s1.p.birthdate, "04/03/1961");
 ```
 
 **4) If there is inheritance, how does your language deal with overloading method names and resolving those calls?**
-<br><br>C doesn't have built-in method overloading. The rules of the programming language would apply -  if multiple functions of the same name are defined, the compiler would give an error because duplicate function definitions aren't allowed.
+<br>C doesn't have built-in method overloading. The rules of the programming language would apply -  if multiple functions of the same name are defined, the compiler would give an error because duplicate function definitions aren't allowed.
 
 **5) Is there anything else that’s important to know about objects and inheritance in your language?**
-<br> 
-
+<br><br>Through the coding portion of this lab it quickly became **very** clear that C is not designed for use in problems requiring object-oriented solutions. I had a very hard time finding resources and code examples, almost all tutorial results were for C++ or C# when searching for C. 
+<br><br>So, even though it is possible to use structs, it definitely seems that another language should be used for objects and inheritance!
 
 
 ## Sources
