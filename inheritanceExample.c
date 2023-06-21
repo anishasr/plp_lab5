@@ -122,10 +122,10 @@ int main() {
 
     // instantiate person object
     struct Person p1;
-    /* create person is expecting a reference, not the struct p1 itself
+    /* create_person() is expecting a reference, not the struct p1 itself
     I found a clear and simple explanation of using & on this Stack Overflow post: https://stackoverflow.com/questions/28778625/whats-the-difference-between-and-in-c
     
-    We want pass &p1 because this passes the memory address location of p1 that was just declared.
+    We want to pass &p1 because this passes the memory address location of p1 that was just declared.
     Then, that memory address is stored in the pointer variable that is created in the create_person function */
 
     create_person(&p1, "Bob", "12/24/1994");
