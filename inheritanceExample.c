@@ -126,7 +126,8 @@ int main() {
     I found a clear and simple explanation of using & on this Stack Overflow post: https://stackoverflow.com/questions/28778625/whats-the-difference-between-and-in-c
     
     We want to pass &p1 because this passes the memory address location of p1 that was just declared.
-    Then, that memory address is stored in the pointer variable that is created in the create_person function */
+    Then, that memory address is stored in the pointer variable that is created in the create_person function 
+    So essentially using & allows you to assign a memory address to a pointer variable */
 
     create_person(&p1, "Bob", "12/24/1994");
 
